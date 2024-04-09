@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden hidden;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #detect {
+    width: 100vh;
+    height: 100vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  #detect:active {
+    background-color: transparent;
+  }
+  
+  
+  #sand1, #sand1Parent div {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #F5DEB3;
+    border-radius: 0%;
+    border:1px solid white;
+  }
